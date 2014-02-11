@@ -45,6 +45,8 @@
 		81EEEA2C18A88C4D0099149D /* RandomBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEEA2A18A88C4D0099149D /* RandomBannerAdView.m */; };
 		81EEEA3418A895D50099149D /* CrumbInterstitialAdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA3118A895D50099149D /* CrumbInterstitialAdViewController.h */; };
 		81EEEA3518A895D50099149D /* CrumbInterstitialAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEEA3218A895D50099149D /* CrumbInterstitialAdViewController.m */; };
+		81EEEA3918A9D0320099149D /* DemoAdSDKUsingCrumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA3718A9D0320099149D /* DemoAdSDKUsingCrumb.h */; };
+		81EEEA3A18A9D0320099149D /* DemoAdSDKUsingCrumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEEA3818A9D0320099149D /* DemoAdSDKUsingCrumb.m */; };
 		DBD09985E7B142DDBD27DA55 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE1C44DAFF846F384756091 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +108,8 @@
 		81EEEA3118A895D50099149D /* CrumbInterstitialAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbInterstitialAdViewController.h; sourceTree = "<group>"; };
 		81EEEA3218A895D50099149D /* CrumbInterstitialAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumbInterstitialAdViewController.m; sourceTree = "<group>"; };
 		81EEEA3618A985AF0099149D /* CrumbInterstitialAdDisplayDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrumbInterstitialAdDisplayDelegate.h; sourceTree = "<group>"; };
+		81EEEA3718A9D0320099149D /* DemoAdSDKUsingCrumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAdSDKUsingCrumb.h; sourceTree = "<group>"; };
+		81EEEA3818A9D0320099149D /* DemoAdSDKUsingCrumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAdSDKUsingCrumb.m; sourceTree = "<group>"; };
 		BA2EAA1DC8A647D0AF94C691 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +174,8 @@
 		81EEE9E318A789490099149D /* DemoAdvertisingSDKUsingCrumb */ = {
 			isa = PBXGroup;
 			children = (
+				81EEEA3718A9D0320099149D /* DemoAdSDKUsingCrumb.h */,
+				81EEEA3818A9D0320099149D /* DemoAdSDKUsingCrumb.m */,
 				81EEEA1B18A796EE0099149D /* DemoAdSDKUsingCrumbConstants.h */,
 				81EEE9E618A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.h */,
 				81EEE9E818A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.m */,
@@ -223,6 +229,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EEEA3918A9D0320099149D /* DemoAdSDKUsingCrumb.h in Headers */,
 				81EEEA2218A79FF10099149D /* CrumbAdFetchDelegate.h in Headers */,
 				81EEEA2B18A88C4D0099149D /* RandomBannerAdView.h in Headers */,
 				81EEEA3418A895D50099149D /* CrumbInterstitialAdViewController.h in Headers */,
@@ -384,6 +391,7 @@
 				81EEEA1A18A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.m in Sources */,
 				81EEEA3518A895D50099149D /* CrumbInterstitialAdViewController.m in Sources */,
 				81EEE9E918A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.m in Sources */,
+				81EEEA3A18A9D0320099149D /* DemoAdSDKUsingCrumb.m in Sources */,
 				81EEEA1418A78F900099149D /* DemoAdSDKUsingCrumbUIManager.m in Sources */,
 				81EEEA2C18A88C4D0099149D /* RandomBannerAdView.m in Sources */,
 				81EEEA2818A8214B0099149D /* CrumbBannerAdView.m in Sources */,
