@@ -30,7 +30,6 @@
 - (instancetype)init {
     if (self = [super init]) {
         _crumbNetworkManager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:CRUMB_BACKEND_AD_URL]];
-        //_imageFetchingManager = [AFHTTPRequestOperationManager ma
     }
     return self;
 }
@@ -46,13 +45,5 @@
         [[DemoAdvertisingSDKUsingCrumbManager getAdManager] errorFetchingAdFromCrumb:error];
     }];
 }
-
-/*
--(void)fetchImageForImageView:(UIImageView *)imageView{
-    
-}
- */
-
-
 
 @end
