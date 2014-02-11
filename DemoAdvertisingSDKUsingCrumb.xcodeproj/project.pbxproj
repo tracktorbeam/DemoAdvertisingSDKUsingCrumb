@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		81EEEA0A18A78D7D0099149D /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 81EEEA0B18A78D7D0099149D /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				81EEEA1018A78DA40099149D /* Prepare Fat Framework */,
+			);
+			dependencies = (
+				81EEEA0F18A78D980099149D /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		81EEE9E218A789490099149D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEE9E118A789490099149D /* Foundation.framework */; };
+		81EEE9E718A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81EEE9E618A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.h */; };
+		81EEE9E918A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE9E818A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.m */; };
+		81EEE9F018A789490099149D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEE9EF18A789490099149D /* XCTest.framework */; };
+		81EEE9F118A789490099149D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEE9E118A789490099149D /* Foundation.framework */; };
+		81EEE9F618A789490099149D /* libDemoAdvertisingSDKUsingCrumb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEE9DE18A789490099149D /* libDemoAdvertisingSDKUsingCrumb.a */; };
+		81EEE9FC18A789490099149D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81EEE9FA18A789490099149D /* InfoPlist.strings */; };
+		81EEE9FE18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEE9FD18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests.m */; };
+		81EEEA0818A78B090099149D /* DemoAdvertisingSDKUsingCrumbManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEE9E618A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81EEEA1318A78F900099149D /* DemoAdSDKUsingCrumbUIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA1118A78F900099149D /* DemoAdSDKUsingCrumbUIManager.h */; };
+		81EEEA1418A78F900099149D /* DemoAdSDKUsingCrumbUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEEA1218A78F900099149D /* DemoAdSDKUsingCrumbUIManager.m */; };
+		81EEEA1618A78FEF0099149D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEEA1518A78FEF0099149D /* UIKit.framework */; };
+		81EEEA1918A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA1718A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.h */; };
+		81EEEA1A18A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEEA1818A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.m */; };
+		81EEEA1D18A796EE0099149D /* DemoAdSDKUsingCrumbConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA1B18A796EE0099149D /* DemoAdSDKUsingCrumbConstants.h */; };
+		81EEEA2018A79A380099149D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEEA1F18A79A380099149D /* AdSupport.framework */; };
+		81EEEA2218A79FF10099149D /* CrumbAdFetchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA2118A79FF10099149D /* CrumbAdFetchDelegate.h */; };
+		81EEEA2718A8214B0099149D /* CrumbBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA2518A8214B0099149D /* CrumbBannerAdView.h */; };
+		81EEEA2818A8214B0099149D /* CrumbBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEEA2618A8214B0099149D /* CrumbBannerAdView.m */; };
+		81EEEA2B18A88C4D0099149D /* RandomBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA2918A88C4D0099149D /* RandomBannerAdView.h */; };
+		81EEEA2C18A88C4D0099149D /* RandomBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEEA2A18A88C4D0099149D /* RandomBannerAdView.m */; };
+		81EEEA3418A895D50099149D /* CrumbInterstitialAdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EEEA3118A895D50099149D /* CrumbInterstitialAdViewController.h */; };
+		81EEEA3518A895D50099149D /* CrumbInterstitialAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EEEA3218A895D50099149D /* CrumbInterstitialAdViewController.m */; };
+		DBD09985E7B142DDBD27DA55 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE1C44DAFF846F384756091 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81EEE9F418A789490099149D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81EEE9D618A789490099149D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EEE9DD18A789490099149D;
+			remoteInfo = DemoAdvertisingSDKUsingCrumb;
+		};
+		81EEEA0E18A78D980099149D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81EEE9D618A789490099149D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EEE9DD18A789490099149D;
+			remoteInfo = DemoAdvertisingSDKUsingCrumb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81EEE9DC18A789490099149D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				81EEE9E718A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2AE1C44DAFF846F384756091 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EEE9DE18A789490099149D /* libDemoAdvertisingSDKUsingCrumb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDemoAdvertisingSDKUsingCrumb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EEE9E118A789490099149D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81EEE9E518A789490099149D /* DemoAdvertisingSDKUsingCrumb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoAdvertisingSDKUsingCrumb-Prefix.pch"; sourceTree = "<group>"; };
+		81EEE9E618A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAdvertisingSDKUsingCrumbManager.h; sourceTree = "<group>"; };
+		81EEE9E818A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAdvertisingSDKUsingCrumbManager.m; sourceTree = "<group>"; };
+		81EEE9EE18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAdvertisingSDKUsingCrumbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EEE9EF18A789490099149D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81EEE9F918A789490099149D /* DemoAdvertisingSDKUsingCrumbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoAdvertisingSDKUsingCrumbTests-Info.plist"; sourceTree = "<group>"; };
+		81EEE9FB18A789490099149D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81EEE9FD18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAdvertisingSDKUsingCrumbTests.m; sourceTree = "<group>"; };
+		81EEEA1118A78F900099149D /* DemoAdSDKUsingCrumbUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAdSDKUsingCrumbUIManager.h; sourceTree = "<group>"; };
+		81EEEA1218A78F900099149D /* DemoAdSDKUsingCrumbUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAdSDKUsingCrumbUIManager.m; sourceTree = "<group>"; };
+		81EEEA1518A78FEF0099149D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81EEEA1718A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAdSDKUsingCrumbNetworkManager.h; sourceTree = "<group>"; };
+		81EEEA1818A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAdSDKUsingCrumbNetworkManager.m; sourceTree = "<group>"; };
+		81EEEA1B18A796EE0099149D /* DemoAdSDKUsingCrumbConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAdSDKUsingCrumbConstants.h; sourceTree = "<group>"; };
+		81EEEA1F18A79A380099149D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		81EEEA2118A79FF10099149D /* CrumbAdFetchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbAdFetchDelegate.h; sourceTree = "<group>"; };
+		81EEEA2418A81BD70099149D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		81EEEA2518A8214B0099149D /* CrumbBannerAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbBannerAdView.h; sourceTree = "<group>"; };
+		81EEEA2618A8214B0099149D /* CrumbBannerAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumbBannerAdView.m; sourceTree = "<group>"; };
+		81EEEA2918A88C4D0099149D /* RandomBannerAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomBannerAdView.h; sourceTree = "<group>"; };
+		81EEEA2A18A88C4D0099149D /* RandomBannerAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomBannerAdView.m; sourceTree = "<group>"; };
+		81EEEA3118A895D50099149D /* CrumbInterstitialAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbInterstitialAdViewController.h; sourceTree = "<group>"; };
+		81EEEA3218A895D50099149D /* CrumbInterstitialAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumbInterstitialAdViewController.m; sourceTree = "<group>"; };
+		81EEEA3618A985AF0099149D /* CrumbInterstitialAdDisplayDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrumbInterstitialAdDisplayDelegate.h; sourceTree = "<group>"; };
+		BA2EAA1DC8A647D0AF94C691 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81EEE9DB18A789490099149D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EEEA2018A79A380099149D /* AdSupport.framework in Frameworks */,
+				81EEEA1618A78FEF0099149D /* UIKit.framework in Frameworks */,
+				81EEE9E218A789490099149D /* Foundation.framework in Frameworks */,
+				DBD09985E7B142DDBD27DA55 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EEE9EB18A789490099149D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EEE9F018A789490099149D /* XCTest.framework in Frameworks */,
+				81EEE9F118A789490099149D /* Foundation.framework in Frameworks */,
+				81EEE9F618A789490099149D /* libDemoAdvertisingSDKUsingCrumb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81EEE9D518A789490099149D = {
+			isa = PBXGroup;
+			children = (
+				81EEEA2418A81BD70099149D /* Storyboard.storyboard */,
+				81EEE9E318A789490099149D /* DemoAdvertisingSDKUsingCrumb */,
+				81EEE9F718A789490099149D /* DemoAdvertisingSDKUsingCrumbTests */,
+				81EEE9E018A789490099149D /* Frameworks */,
+				81EEE9DF18A789490099149D /* Products */,
+				BA2EAA1DC8A647D0AF94C691 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		81EEE9DF18A789490099149D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81EEE9DE18A789490099149D /* libDemoAdvertisingSDKUsingCrumb.a */,
+				81EEE9EE18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81EEE9E018A789490099149D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81EEEA1F18A79A380099149D /* AdSupport.framework */,
+				81EEEA1518A78FEF0099149D /* UIKit.framework */,
+				81EEE9E118A789490099149D /* Foundation.framework */,
+				81EEE9EF18A789490099149D /* XCTest.framework */,
+				2AE1C44DAFF846F384756091 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81EEE9E318A789490099149D /* DemoAdvertisingSDKUsingCrumb */ = {
+			isa = PBXGroup;
+			children = (
+				81EEEA1B18A796EE0099149D /* DemoAdSDKUsingCrumbConstants.h */,
+				81EEE9E618A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.h */,
+				81EEE9E818A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.m */,
+				81EEEA1118A78F900099149D /* DemoAdSDKUsingCrumbUIManager.h */,
+				81EEEA1218A78F900099149D /* DemoAdSDKUsingCrumbUIManager.m */,
+				81EEEA1718A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.h */,
+				81EEEA1818A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.m */,
+				81EEEA2118A79FF10099149D /* CrumbAdFetchDelegate.h */,
+				81EEEA3618A985AF0099149D /* CrumbInterstitialAdDisplayDelegate.h */,
+				81EEEA2518A8214B0099149D /* CrumbBannerAdView.h */,
+				81EEEA2618A8214B0099149D /* CrumbBannerAdView.m */,
+				81EEEA2918A88C4D0099149D /* RandomBannerAdView.h */,
+				81EEEA2A18A88C4D0099149D /* RandomBannerAdView.m */,
+				81EEEA3118A895D50099149D /* CrumbInterstitialAdViewController.h */,
+				81EEEA3218A895D50099149D /* CrumbInterstitialAdViewController.m */,
+				81EEE9E418A789490099149D /* Supporting Files */,
+			);
+			path = DemoAdvertisingSDKUsingCrumb;
+			sourceTree = "<group>";
+		};
+		81EEE9E418A789490099149D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81EEE9E518A789490099149D /* DemoAdvertisingSDKUsingCrumb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81EEE9F718A789490099149D /* DemoAdvertisingSDKUsingCrumbTests */ = {
+			isa = PBXGroup;
+			children = (
+				81EEE9FD18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests.m */,
+				81EEE9F818A789490099149D /* Supporting Files */,
+			);
+			path = DemoAdvertisingSDKUsingCrumbTests;
+			sourceTree = "<group>";
+		};
+		81EEE9F818A789490099149D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81EEE9F918A789490099149D /* DemoAdvertisingSDKUsingCrumbTests-Info.plist */,
+				81EEE9FA18A789490099149D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81EEEA0718A78B030099149D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EEEA2218A79FF10099149D /* CrumbAdFetchDelegate.h in Headers */,
+				81EEEA2B18A88C4D0099149D /* RandomBannerAdView.h in Headers */,
+				81EEEA3418A895D50099149D /* CrumbInterstitialAdViewController.h in Headers */,
+				81EEEA1D18A796EE0099149D /* DemoAdSDKUsingCrumbConstants.h in Headers */,
+				81EEEA2718A8214B0099149D /* CrumbBannerAdView.h in Headers */,
+				81EEEA1918A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.h in Headers */,
+				81EEEA1318A78F900099149D /* DemoAdSDKUsingCrumbUIManager.h in Headers */,
+				81EEEA0818A78B090099149D /* DemoAdvertisingSDKUsingCrumbManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		81EEE9DD18A789490099149D /* DemoAdvertisingSDKUsingCrumb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EEEA0118A789490099149D /* Build configuration list for PBXNativeTarget "DemoAdvertisingSDKUsingCrumb" */;
+			buildPhases = (
+				B6427D102F0448799DBE6686 /* Check Pods Manifest.lock */,
+				81EEE9DA18A789490099149D /* Sources */,
+				81EEE9DB18A789490099149D /* Frameworks */,
+				81EEE9DC18A789490099149D /* CopyFiles */,
+				81EEEA0718A78B030099149D /* Headers */,
+				81EEEA0918A78D2B0099149D /* Prepare Framework */,
+				DF7526E0B46A4733A09366DF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoAdvertisingSDKUsingCrumb;
+			productName = DemoAdvertisingSDKUsingCrumb;
+			productReference = 81EEE9DE18A789490099149D /* libDemoAdvertisingSDKUsingCrumb.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81EEE9ED18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EEEA0418A789490099149D /* Build configuration list for PBXNativeTarget "DemoAdvertisingSDKUsingCrumbTests" */;
+			buildPhases = (
+				81EEE9EA18A789490099149D /* Sources */,
+				81EEE9EB18A789490099149D /* Frameworks */,
+				81EEE9EC18A789490099149D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81EEE9F518A789490099149D /* PBXTargetDependency */,
+			);
+			name = DemoAdvertisingSDKUsingCrumbTests;
+			productName = DemoAdvertisingSDKUsingCrumbTests;
+			productReference = 81EEE9EE18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81EEE9D618A789490099149D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tracktor Beam";
+			};
+			buildConfigurationList = 81EEE9D918A789490099149D /* Build configuration list for PBXProject "DemoAdvertisingSDKUsingCrumb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81EEE9D518A789490099149D;
+			productRefGroup = 81EEE9DF18A789490099149D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81EEE9DD18A789490099149D /* DemoAdvertisingSDKUsingCrumb */,
+				81EEE9ED18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests */,
+				81EEEA0A18A78D7D0099149D /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81EEE9EC18A789490099149D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EEE9FC18A789490099149D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81EEEA0918A78D2B0099149D /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"";
+		};
+		81EEEA1018A78DA40099149D /* Prepare Fat Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Fat Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"";
+		};
+		B6427D102F0448799DBE6686 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7526E0B46A4733A09366DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81EEE9DA18A789490099149D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EEEA1A18A794F60099149D /* DemoAdSDKUsingCrumbNetworkManager.m in Sources */,
+				81EEEA3518A895D50099149D /* CrumbInterstitialAdViewController.m in Sources */,
+				81EEE9E918A789490099149D /* DemoAdvertisingSDKUsingCrumbManager.m in Sources */,
+				81EEEA1418A78F900099149D /* DemoAdSDKUsingCrumbUIManager.m in Sources */,
+				81EEEA2C18A88C4D0099149D /* RandomBannerAdView.m in Sources */,
+				81EEEA2818A8214B0099149D /* CrumbBannerAdView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EEE9EA18A789490099149D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EEE9FE18A789490099149D /* DemoAdvertisingSDKUsingCrumbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81EEE9F518A789490099149D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81EEE9DD18A789490099149D /* DemoAdvertisingSDKUsingCrumb */;
+			targetProxy = 81EEE9F418A789490099149D /* PBXContainerItemProxy */;
+		};
+		81EEEA0F18A78D980099149D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81EEE9DD18A789490099149D /* DemoAdvertisingSDKUsingCrumb */;
+			targetProxy = 81EEEA0E18A78D980099149D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81EEE9FA18A789490099149D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81EEE9FB18A789490099149D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81EEE9FF18A789490099149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81EEEA0018A789490099149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81EEEA0218A789490099149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2EAA1DC8A647D0AF94C691 /* Pods.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/DemoAdvertisingSDKUsingCrumb.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoAdvertisingSDKUsingCrumb/DemoAdvertisingSDKUsingCrumb-Prefix.pch";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		81EEEA0318A789490099149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2EAA1DC8A647D0AF94C691 /* Pods.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/DemoAdvertisingSDKUsingCrumb.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoAdvertisingSDKUsingCrumb/DemoAdvertisingSDKUsingCrumb-Prefix.pch";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		81EEEA0518A789490099149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoAdvertisingSDKUsingCrumb/DemoAdvertisingSDKUsingCrumb-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DemoAdvertisingSDKUsingCrumbTests/DemoAdvertisingSDKUsingCrumbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		81EEEA0618A789490099149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoAdvertisingSDKUsingCrumb/DemoAdvertisingSDKUsingCrumb-Prefix.pch";
+				INFOPLIST_FILE = "DemoAdvertisingSDKUsingCrumbTests/DemoAdvertisingSDKUsingCrumbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		81EEEA0C18A78D7D0099149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81EEEA0D18A78D7D0099149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81EEE9D918A789490099149D /* Build configuration list for PBXProject "DemoAdvertisingSDKUsingCrumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EEE9FF18A789490099149D /* Debug */,
+				81EEEA0018A789490099149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EEEA0118A789490099149D /* Build configuration list for PBXNativeTarget "DemoAdvertisingSDKUsingCrumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EEEA0218A789490099149D /* Debug */,
+				81EEEA0318A789490099149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EEEA0418A789490099149D /* Build configuration list for PBXNativeTarget "DemoAdvertisingSDKUsingCrumbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EEEA0518A789490099149D /* Debug */,
+				81EEEA0618A789490099149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EEEA0B18A78D7D0099149D /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EEEA0C18A78D7D0099149D /* Debug */,
+				81EEEA0D18A78D7D0099149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81EEE9D618A789490099149D /* Project object */;
+}
